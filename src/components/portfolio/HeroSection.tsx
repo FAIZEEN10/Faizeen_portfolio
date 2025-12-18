@@ -58,13 +58,7 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in" style={{ animationDelay: "1s" }}>
-          <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
-            <span className="text-sm">Scroll to explore</span>
-            <ArrowDown className="animate-bounce" size={20} />
-          </a>
-        </div>
+        
       </div>
     </section>
   );

@@ -6,20 +6,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "faizeenjabbar80@gmail.com",
-    href: "mailto:faizeenjabbar80@gmail.com",
+    value: "mohamedfaizeen10@gmail.com",
+    href: "mailto:mohamedfaizeen10@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 8610012287",
-    href: "tel:+918610012287",
+    value: "+971502631572",
+    href: "tel:+971502631572",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     value: "Mohamed Faizeen J",
-    href: "https://www.linkedin.com/in/mohamed-faizeen-j/",
+    href: "https://www.linkedin.com/in/mohamed-faizeen-j-8795302b5/",
   },
   {
     icon: MapPin,
