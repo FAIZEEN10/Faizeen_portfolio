@@ -87,7 +87,6 @@ export const AboutSection = () => {
                   <p className="text-sm text-muted-foreground">
                     Software Developer at ASKAN Technologies
                   </p>
-                  <p className="text-sm text-muted-foreground">6 months of professional experience</p>
                 </div>
               </div>
 

@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const certifications = [
   {
     title: "Full Stack Developer Certification",
-    issuer: "Udemy",
+    issuer: "Coursera",
     icon: "🎓",
   },
   {
@@ -16,6 +16,11 @@ const certifications = [
     title: "AI Build Model Certification",
     issuer: "Microsoft",
     icon: "🧠",
+  },
+  {
+    title: "Data Structures and Algorithms using Java",
+    issuer: "Infosys Springboard",
+    icon: "📚",
   },
 ];
 
