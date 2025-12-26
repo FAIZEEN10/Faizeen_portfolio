@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# Mohamed Faizeen J - Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my work as a Java Full Stack Developer and Software Engineer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern UI/UX**: Built with React, TypeScript, and Tailwind CSS
+- **Responsive Design**: Fully responsive across all devices
+- **Smooth Animations**: Engaging animations and transitions
+- **Professional Sections**:
+  - Hero Section with social links
+  - About Me
+  - Skills & Technologies
+  - Projects Showcase
+  - Work Experience
+  - Certifications
+  - Contact Form
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **State Management**: TanStack Query
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+1. Clone the repository:
+```bash
 git clone <YOUR_GIT_URL>
+cd sde-showcase-uae
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The production build will be created in the `dist` directory.
 
-## What technologies are used for this project?
+## 📤 Deploy to Vercel
 
-This project is built with:
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Vercel will automatically detect Vite and configure the build settings
+4. Deploy!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Or use the Vercel CLI:
+```bash
+npm i -g vercel
+vercel
+```
 
-## How can I deploy this project?
+## 📝 Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is private and personal.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👤 Author
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Mohamed Faizeen J**
+- GitHub: [@Mohamedfaizeen](https://github.com/Mohamedfaizeen)
+- LinkedIn: [Mohamed Faizeen J](https://www.linkedin.com/in/mohamed-faizeen-j-8795302b5/)
+
+---
+
+Built with ❤️ using React, TypeScript, and Vite

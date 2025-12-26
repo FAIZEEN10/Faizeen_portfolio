@@ -74,7 +74,7 @@ export const AboutSection = () => {
                   <p className="text-sm text-muted-foreground">
                     B.E. Computer Science — Rajalakshmi Institute of Technology
                   </p>
-                  <p className="text-sm text-muted-foreground">CGPA: 8.0/10</p>
+                  <p className="text-sm text-muted-foreground">CGPA: 7.3/10</p>
                 </div>
               </div>
 

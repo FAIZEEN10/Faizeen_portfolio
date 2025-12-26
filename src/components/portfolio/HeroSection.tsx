@@ -1,7 +1,17 @@
-import { MapPin, Calendar, ArrowDown } from "lucide-react";
+import { MapPin, Calendar, Download, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
+  const socialLinks = {
+    github: "https://github.com/Mohamedfaizeen",
+    linkedin: "https://www.linkedin.com/in/mohamed-faizeen-j-8795302b5/",
+    resume: "https://drive.google.com/file/d/1Xddc27U_GgWL2sNlphLWMjLIgwuakHpy/view?usp=sharing"
+  };
+
+  const handleResumeDownload = () => {
+    window.open(socialLinks.resume, '_blank');
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Effects */}
@@ -47,9 +57,39 @@ export const HeroSection = () => {
             </span>
           </div>
 
+          {/* Social Links */}
+          <div className="flex items-center justify-center gap-4 mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.5s" }}>
+            <a
+              href={socialLinks.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass p-3 rounded-full hover:bg-primary/10 transition-all duration-300 hover:scale-110"
+              aria-label="GitHub Profile"
+            >
+              <Github size={20} className="text-muted-foreground hover:text-primary transition-colors" />
+            </a>
+            <a
+              href={socialLinks.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass p-3 rounded-full hover:bg-primary/10 transition-all duration-300 hover:scale-110"
+              aria-label="LinkedIn Profile"
+            >
+              <Linkedin size={20} className="text-muted-foreground hover:text-primary transition-colors" />
+            </a>
+          </div>
+
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 glow">
+            <Button 
+              onClick={handleResumeDownload}
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 glow flex items-center gap-2"
+            >
+              <Download size={18} />
+              Download Resume
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-border hover:bg-secondary">
               <a href="#projects">View Projects</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-border hover:bg-secondary">
@@ -57,8 +97,6 @@ export const HeroSection = () => {
             </Button>
           </div>
         </div>
-
-        
       </div>
     </section>
   );
