@@ -5,7 +5,7 @@ export const HeroSection = () => {
   const socialLinks = {
     github: "https://github.com/Mohamedfaizeen",
     linkedin: "https://www.linkedin.com/in/mohamed-faizeen-j-8795302b5/",
-    resume: "https://drive.google.com/file/d/1Xddc27U_GgWL2sNlphLWMjLIgwuakHpy/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1EVxtPN1Wjulc0gwGMIbw1dJeTtMO-Dfp/view?usp=sharing"
   };
 
   const handleResumeDownload = () => {

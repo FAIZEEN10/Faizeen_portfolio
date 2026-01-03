@@ -109,7 +109,7 @@ export const ContactSection = () => {
           {/* CTA */}
           <div className="text-center mt-12">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 glow">
-              <a href="mailto:faizeenjabbar80@gmail.com">
+              <a href="mailto:mohamedfaizeen10@gmail.com">
                 <Send className="mr-2" size={18} />
                 Send Me an Email
               </a>
